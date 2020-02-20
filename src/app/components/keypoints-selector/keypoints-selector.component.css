@@ -1,0 +1,45 @@
+.relative {
+    float:left;
+    position: relative;
+    width: 450px;
+    height: 570px;
+    margin-left: 200px;;
+    border: 3px solid #73AD21;
+}
+
+.absoluteRechterArm {
+    position: absolute;
+    top: 136px;
+    right: 20px;
+    width:137px;
+    height:56px;
+}
+.absoluteLinkerArm {
+    position: absolute;
+    top: 136px;
+    left: 23px;
+    width:137px;
+    height:56px;
+}
+.absoluteLinkerBeen {
+    position: absolute;
+    top: 360px;
+    left: 158px;
+    height: 150px;
+    width:45px;
+}
+.absoluteRechterBeen {
+    position: absolute;
+    top: 360px;
+    right: 158px;
+    height: 150px;
+    width:45px;
+}
+#manneke{
+    width:450px;
+    height:570px;
+}
+.instructies{
+    float:left;
+    margin-left: 100px;
+}
