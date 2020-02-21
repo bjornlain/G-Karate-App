@@ -5,48 +5,55 @@
     position:absolute;
     width:60px;
     height:60px;
-    top: 170px;
-    right: 390px;
+    top: 270px;
+    right: 425px;
 }
 #keypoint2{
     position:absolute;
     width:60px;
     height:60px;
-    top: 80px;
-    right: 390px;
+    top: 180px;
+    right: 425px;
 }
 #keypoint3{
     position:absolute;
     width:60px;
     height:60px;
-    top: 80px;
-    right: 460px;
+    top: 180px;
+    right: 495px;
 }
 #keypoint4{
     position:absolute;
     width:60px;
     height:60px;
-    top: 170px;
-    right: 460px;
+    top: 270px;
+    right: 495px;
 }
 #keypoint5{
     position:absolute;
     width:60px;
     height:60px;
-    top: 330px;
-    right: 460px;
+    top: 430px;
+    right: 495px;
 }
 #keypoint6{
     position:absolute;
     width:60px;
     height:60px;
-    top: 330px;
-    right: 390px;
+    top: 430px;
+    right: 425px;
 }
 #keypoint7{
     position:absolute;
     width:60px;
     height:60px;
-    top: 450px;
-    right: 475px;
+    top: 550px;
+    right: 510px;
+}
+#keypoint8{
+    position:absolute;
+    width:60px;
+    height:60px;
+    top: 550px;
+    right: 425px;
 }
