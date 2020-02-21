@@ -13,7 +13,7 @@ import {Observable} from "rxjs";
 export class InstructiesComponent implements OnInit {
   keypoint: Keypoint;
   sequences: Observable<Sequence[]>;
-  seq: string = "RH 1 2 4";
+  seq: string = "RH 1 2 3 4 5 6 7 8";
   keypoint1: boolean = true;
   keypoint2: boolean = true;
   keypoint3: boolean = true;
@@ -55,7 +55,6 @@ export class InstructiesComponent implements OnInit {
 
     for (let i = 1; i < this.seqArray.length; i++) {
       console.log(this.seqArray[i]);
-      let timeout = 2000;
       setTimeout(() => {
         switch (this.seqArray[i]){
         case "1":
@@ -82,8 +81,8 @@ export class InstructiesComponent implements OnInit {
         case "8":
           this.keypoint8 =  false;
           break;
-      } }, timeout);
-      timeout += 2000;
+      } }, i*50);
+
     }
   }
 }
