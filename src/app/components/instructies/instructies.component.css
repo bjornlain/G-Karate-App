@@ -1,0 +1,52 @@
+.bodyfigure{
+    position: relative;
+}
+#keypoint1{
+    position:absolute;
+    width:60px;
+    height:60px;
+    top: 170px;
+    right: 390px;
+}
+#keypoint2{
+    position:absolute;
+    width:60px;
+    height:60px;
+    top: 80px;
+    right: 390px;
+}
+#keypoint3{
+    position:absolute;
+    width:60px;
+    height:60px;
+    top: 80px;
+    right: 460px;
+}
+#keypoint4{
+    position:absolute;
+    width:60px;
+    height:60px;
+    top: 170px;
+    right: 460px;
+}
+#keypoint5{
+    position:absolute;
+    width:60px;
+    height:60px;
+    top: 330px;
+    right: 460px;
+}
+#keypoint6{
+    position:absolute;
+    width:60px;
+    height:60px;
+    top: 330px;
+    right: 390px;
+}
+#keypoint7{
+    position:absolute;
+    width:60px;
+    height:60px;
+    top: 450px;
+    right: 475px;
+}

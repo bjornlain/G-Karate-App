@@ -1,3 +1,4 @@
+<div style="float:left">
 <h2>Je hebt de volgende lichaamsdelenbeperkingen :</h2>
 <p> Linkerhand :  {{keypoint.linkerhand | engels}}</p>
 <p> Rechterhand:  {{keypoint.rechterhand | engels}}</p>
@@ -5,3 +6,16 @@
 <p> Rechterbeen:  {{keypoint.rechterbeen | engels}}</p>
 
 <input type="button" (click)="getSequences()" value="Haal de danspasjes op">
+</div>
+<div style="margin-left:50px; float:left"> <img id="lichaamsdeell"  src="../../../assets/redFeet2.png"></div>
+<div >
+    <img class="bodyfigure" src="../../../assets/bodyfigure.png">
+    <img *ngIf="!keypoint1" id="keypoint1" src="../../../assets/yellowcircle.png">
+    <img *ngIf="!keypoint2" id="keypoint2" src="../../../assets/yellowcircle.png">
+    <img *ngIf="!keypoint3"  id="keypoint3" src="../../../assets/yellowcircle.png">
+    <img *ngIf="!keypoint4" id="keypoint4" src="../../../assets/yellowcircle.png">
+    <img  *ngIf="!keypoint5" id="keypoint5" src="../../../assets/yellowcircle.png">
+    <img *ngIf="!keypoint6" id="keypoint6" src="../../../assets/yellowcircle.png">
+    <img *ngIf="!keypoint7" id="keypoint7" src="../../../assets/yellowcircle.png">
+    <img *ngIf="!keypoint8" id="keypoint8" src="../../../assets/yellowcircle.png">
+</div>
