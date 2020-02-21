@@ -39,23 +39,25 @@ export class InstructiesComponent implements OnInit {
     for (let groot of this.seq) {
       this.seqArray = groot.split(" ");
       let ld = document.getElementById("lichaamsdeell") as HTMLImageElement;
-      switch (this.seqArray[0]) {
-        case "RH":
-          ld.src = "../../../assets/redHand2.png";
-          break;
-        case "LH":
-          ld.src = "../../../assets/blueHand1.png";
-          break;
-        case "RF":
-          ld.src = "../../../assets/redFeet2.png";
-          break;
-        case "LF":
-          ld.src = "../../../assets/blueFeet1.png";
-          break;
-      }
-      console.log(this.seqArray);
+      setTimeout(() => {
+        console.log(this.seqArray);
+        switch (this.seqArray[0]) {
+          case "RH":
+            ld.src = "../../../assets/redHand2.png";
+            break;
+          case "LH":
+            ld.src = "../../../assets/blueHand1.png";
+            break;
+          case "RF":
+            ld.src = "../../../assets/redFeet2.png";
+            break;
+          case "LF":
+            ld.src = "../../../assets/blueFeet1.png";
+            break;
+        }
+      }, counter *3*2000);
       for (let i = 1; i < this.seqArray.length; i++) {
-        console.log(this.seqArray[i]);
+        console.log(this.seqArray);
         setTimeout(() => {
           switch (this.seqArray[i]){
             case "1":
@@ -86,6 +88,7 @@ export class InstructiesComponent implements OnInit {
 
       }
       counter++;
+      console.log(counter);
       this.keypoint1 = true;
       this.keypoint2 = true;
       this.keypoint3 = true;
